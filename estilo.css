@@ -20,5 +20,27 @@ header{
     background-color: white;
     margin: 1rem 0;
     border-radius: 10px;
-    padding: 0.25rem;
+    padding: 0.25rem 0;
+    transition: box-shadow 0.3 ease;
 }
+
+section article h2, section article p{
+    margin: 1rem;
+    
+}
+section article img{
+    width: 400px;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+section article:hover{
+    box-shadow: 0  0.1rem  0.4rem #364552;
+    cursor: pointer;
+}
+
